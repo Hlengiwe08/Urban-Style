@@ -1,80 +1,54 @@
-# UrbanStyle E-Commerce Website
+# My E-Commerce Store
 
-## Project Overview
-UrbanStyle is a responsive e-commerce website for a fashion brand specializing in trendy clothing and accessories.  
-The site allows customers to browse products, add them to a cart, and proceed to checkout.  
+An interactive e-commerce web application where users can browse products, view detailed product information, and add items to their shopping cart. Built with HTML, CSS, and JavaScript, this project demonstrates a simple online store interface. School project...
 
-This project was developed as an **individual assignment** and deployed using GitHub Pages.  
+## Features
+- Browse products by category
+- View detailed product information
+- Add products to shopping cart
+- Responsive design for both mobile and desktop
+- Dynamic product listing using FakeStoreAPI
 
----
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [FakeStoreAPI](https://fakestoreapi.com/) for product data
 
-## Features Implemented
-- **Home Page**
-  - Welcome text
-  - Promotional banner
-  - Featured products section
+## Installation
 
-- **Products Page**
-  - Displays all available products in a grid layout
-  - Each product includes an image, price, and "Add to Cart" button
-  - **Search bar** to filter products by name
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hlengiwe08/ecommerce-project.git
+````
 
-- **Product Details Page** 
-  - Each product card links to more details (image, description, price, Add to Cart)
+2. Open `index.html` in your preferred web browser.
 
-- **Cart Page**
-  - Displays all items added to cart
-  - Allows quantity updates
-  - Remove items from cart
-  - Calculates total cost
+## Usage
 
-- **Checkout Page**
-  - Simple form for customer details (name, email, address, payment method)
-  - **Form validation** using JavaScript
-  - Confirmation alert on successful order
+* Navigate through product categories to explore items.
+* Click on a product to view detailed information.
+* Add products to your cart and review your total order.
 
-- **Contact Us Page**
-  - Contact form with name, email, message
-  - Store details: email, phone number
+## Future Improvements
 
-- **Responsive Design**
-  - Works on mobile, tablet, and desktop devices
+* Implement user authentication for accounts and order tracking.
+* Integrate a real payment gateway.
+* Add product search and filter functionality.
+* Enhance UI/UX with animations and interactive elements.
 
----
+## Credits
 
-## How It Works
-- Products are stored in a **JavaScript array** inside `script.js`.
-- When a user clicks "Add to Cart", the item is saved in **localStorage** so it persists across pages.
-- The **Cart Page** dynamically loads cart items, allowing updates and deletions.
-- The **Search bar** filters products in real time.
-- The **Checkout form** validates input fields before confirming an order.
+* [FakeStoreAPI](https://fakestoreapi.com/) for sample product data.
+* Tutorials and inspiration from various web development resources.
 
----
+## License
 
-##  Challenges Faced
-- Implementing **cart persistence** across multiple pages without a backend → solved using `localStorage`.
-- Designing a **responsive grid layout** for products → solved using CSS Grid and media queries.
-- Ensuring smooth **form validation** on the checkout page → solved with JavaScript event listeners.
-- Simulating a payment process without a backend → limited to form validation and confirmation message.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+```
 
 ---
 
-## Completed Features
-- Core pages (Home, Products, Cart, Checkout, Contact)
-- Add to Cart / Remove / Update quantity
-- Cart total calculation
-- Responsive design
-- Search functionality
-- Form validation
 
----
-
-## Bonus Features
-- Product categories (e.g., Men, Women, Accessories)
-- Sorting by price or name
-- Customer reviews
-- Dark mode toggle
-
----
-
-## 📂 Project Structure
+```
